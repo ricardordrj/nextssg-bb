@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
+  // output: 'export', // para ativar o SSG, porém precisa usar o serve ao invés do start
 };
 
 export default nextConfig;
