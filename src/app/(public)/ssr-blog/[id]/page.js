@@ -9,7 +9,7 @@ const SsrBlogPost = async ({ params }) => {
   // Fetch do post na API do JSONPlaceholder
   async function getPosts() {
 
-    const { data } = await axios.get(`http://localhost:1337/api/posts/${id}`)
+    const { data } = await axios.get(`https://9122-2804-2e00-8049-ce00-3ea1-dd5f-f13a-be96.ngrok-free.app/api/posts/${id}`)
     return data.data;
   }
 

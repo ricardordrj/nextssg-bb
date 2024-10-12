@@ -8,7 +8,7 @@ axios.defaults.headers.common['Authorization'] = 'Bearer d085d1e4a365d512fbf70de
 
 export async function getPosts() {
 
-  const { data } = await axios.get('http://localhost:1337/api/posts')
+  const { data } = await axios.get('https://9122-2804-2e00-8049-ce00-3ea1-dd5f-f13a-be96.ngrok-free.app/api/posts')
   return data.data;
 }
 
