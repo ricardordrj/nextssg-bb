@@ -1,38 +1,38 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
+  title: Deixe-nos resolver seus desafios críticos de desenvolvimento de sites
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus.
   image: /images/banner-art.svg
   button:
-    label: "Contact Us"
+    label: "Fale Conosco"
     link: "/contact"
 
 # feature
-feature: 
-  title: Something You Need To Know
+feature:
+  title: Algo que você precisa saber
   features:
-  - name: "Clean Code"
-    icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
-    icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
-    icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
-    icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Código Limpo"
+      icon: "/images/code.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Orientado a Objetos"
+      icon: "/images/oop.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Serviço 24h"
+      icon: "/images/user-clock.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Custo-Benefício"
+      icon: "/images/love.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Resposta Mais Rápida"
+      icon: "/images/speedometer.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Suporte na Nuvem"
+      icon: "/images/cloud.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
+  - title: "É a mais avançada empresa de marketing digital e TI."
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/service-slide-1.png"
@@ -40,30 +40,19 @@ services:
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Confira
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images: 
-      - "/images/service-slide-1.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-  
-  - title: "It’s a team of experienced and skilled people with distributions"
+  - title: "É uma empresa privada de segurança da informação e cibersegurança"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Confira
       link: /contact
 
-  - title: "A company standing different from others"
+  - title: "É uma equipe de pessoas experientes e qualificadas com distribuições"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/service-slide-1.png"
@@ -71,22 +60,33 @@ services:
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Confira
+      link: /contact
+
+  - title: "Uma empresa que se destaca das demais"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    images:
+      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+    button:
+      enable: true
+      label: Confira
       link: /contact
 
 # workflow
-workflow: 
-  title: "Experience the best workflow with us"
+workflow:
+  title: "Experimente o melhor fluxo de trabalho conosco"
   image: "/images/banner.svg"
   description: ""
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
+  title: Pronto para começar?
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.svg'
+  image: "/images/cta.svg"
   button:
     enable: true
-    label: "Contact Us"
+    label: "Fale Conosco"
     link: "/contact"
 ---
