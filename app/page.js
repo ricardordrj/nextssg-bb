@@ -15,7 +15,7 @@ export const dynamic = 'force-dynamic';
 const Home = async () => {
   const homePage = await getListPage("content/_index.md");
   const { frontmatter } = homePage;
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { feature, services, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
 
