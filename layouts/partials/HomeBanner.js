@@ -1,13 +1,14 @@
-
+"use client"
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 
 
 
-const HomeBanner = async ({ banner }) => {
 
-  return banner?.length > 0 && (
+const HomeBanner = ({ banner }) => {
+
+  return banner && (
     <section className="section pb-[50px]">
       <div className="container">
         <div className="row text-center">
