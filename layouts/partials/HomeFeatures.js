@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const HomeFeatures = ({ feature }) => {
   return (
-    <section className="section bg-theme-light">
+    <section className="section bg-primary">
       <div className="container">
         <div className="text-center">
-          <h2>{markdownify(feature.title)}</h2>
+          <h2 className="text-white">{markdownify(feature.title)}</h2>
         </div>
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
           {feature.features.map((item, i) => (
