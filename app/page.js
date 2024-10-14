@@ -10,7 +10,7 @@ import { getListPage } from "../lib/contentParser";
 
 import { getBanner } from "services";
 
-
+export const dynamic = 'force-dynamic';
 
 const Home = async () => {
   const homePage = await getListPage("content/_index.md");
