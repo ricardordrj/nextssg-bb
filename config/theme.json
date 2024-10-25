@@ -5,7 +5,10 @@
         "primary": "#ff6600",
         "body": "#ffffff",
         "border": "#d1d1d1",
-        "theme_light": "#f4f4f4"
+        "theme_light": "#f4f4f4",
+        "error": "#ff4d4d",
+        "warning": "#ffa500",
+        "info": "#3399ff"
       },
       "text_color": {
         "default": "#595959",

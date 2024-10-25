@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const token = '41fc905fe3683122b90dc4d45f6e36ef386126bc64e8137afbba392220140eba4059541d6ba0f66281dda2e140d9acca38e9d526a140cf26929497c9050b96ecc2929afa799a20f06364a19a4e224a50b596bce1f6ddb7074d6a26fcbc9586da3f612e1cf0660277f0ca671ecf4cbb3c47f82e5a9163e61021ac23299eb86bc0'
+const token = '7d5a6ebefdba328cb84f4ec8557a5cb130e3c8b9eb52102ec0df5d0a42b7192ee9ccc13ab3103593d9966f7026e326ddb285eb4316c01255e69607ad61b7e4126a9f9c01da814f2521733f5ed6510f5f760ebb2a04bfd3e10111195fca6982fc4387f38c8a2e7d7f67462acbd4dd0cd2cef685a8186be002c26b44077136b029'
 
 const api = axios.create({
-  baseURL: 'https://strapi-cms-4j37.onrender.com/api',
+  baseURL: 'http://localhost:1337/api',
   headers: {
     'Authorization': `Bearer ${token}`,
     'Content-Type': 'application/json'

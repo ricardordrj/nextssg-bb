@@ -134,20 +134,21 @@ const Home = async () => {
   const { title } = config.site;
 
 
-  let bannerInfo = []
+  let homeData = []
   try {
     const { data } = await getBanner();
-    bannerInfo = data.banner || [];
+    console.log('data: ', JSON.stringify(data))
+    homeData = data;
   } catch (error) {
     console.error('Erro ao buscar banner:', error);
   }
 
   return (
     <>
-      <SeoMeta title={title} />
+      <SeoMeta title={homeData.SEO.metaTitle} />
 
       {/* Banner */}
-      <HomeBanner banner={bannerInfo} />
+      <HomeBanner banner={homeData.BannerPrincipal} />
 
       {/* Features */}
       <HomeFeatures feature={feature} />

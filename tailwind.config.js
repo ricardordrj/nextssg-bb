@@ -50,6 +50,9 @@ module.exports = {
         secondary: theme.colors.default.theme_color.secondary,
         body: theme.colors.default.theme_color.body,
         border: theme.colors.default.theme_color.border,
+        error: theme.colors.default.theme_color.error,
+        warning: theme.colors.default.theme_color.warning,
+        info: theme.colors.default.theme_color.info,
         "theme-light": theme.colors.default.theme_color.theme_light,
       },
       fontSize: {
