@@ -27,7 +27,7 @@ const Services = ({ services }) => {
                   delay: 5000,
                   disableOnInteraction: false,
                 }}
-                init={service?.images > 1 ? false : true}
+                init={service?.images.length > 1 ? false : true}
               >
                 {/* Slides */}
                 {service?.images.map((slide, index) => (
